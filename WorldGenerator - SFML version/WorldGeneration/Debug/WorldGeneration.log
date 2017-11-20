@@ -1,0 +1,14 @@
+﻿Compilación iniciada a las 01/02/2017 16:12:06.
+     1>Proyecto "C:\Users\Fernando\Desktop\WG\WorldGeneration\WorldGeneration\WorldGeneration.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt generador.cpp
+         generador.cpp
+     1>c:\users\fernando\desktop\wg\worldgeneration\worldgeneration\generador.cpp(535): warning C4244: 'argumento' : conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Fernando\Desktop\WG\WorldGeneration\Debug\WorldGeneration.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" "sfml-audio-d.lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Fernando\Desktop\WG\WorldGeneration\Debug\WorldGeneration.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Fernando\Desktop\WG\WorldGeneration\Debug\WorldGeneration.lib" /MACHINE:X86 Debug\generador.obj
+         WorldGeneration.vcxproj -> C:\Users\Fernando\Desktop\WG\WorldGeneration\Debug\WorldGeneration.exe
+     1>Compilación del proyecto terminada "C:\Users\Fernando\Desktop\WG\WorldGeneration\WorldGeneration\WorldGeneration.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.62
